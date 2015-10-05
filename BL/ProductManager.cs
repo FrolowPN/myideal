@@ -168,7 +168,7 @@ namespace BL
 
         }
 
-      
+
         public bool WriteProductsFile(List<DataViewProducts> list, string address)
         {
             try
@@ -182,7 +182,15 @@ namespace BL
                         i++;
                         using (StreamWriter file = new StreamWriter(path, true))
                         {
-                            file.WriteLine(i + " " + item.LabelName + " " + item.Name + " " + item.Volume + "ml " + item.Price + "000р. " + item.Count+"шт.");
+                            //file.WriteLine(i + " " + item.LabelName + " " + item.Name + " " + item.Volume + "ml " + item.Price + "000р. " + item.Count + "шт.");
+                            file.WriteLine("    -= "+i+" =-");
+                            file.WriteLine(item.LabelName);
+                            file.WriteLine(item.Name);
+                            file.WriteLine(item.Volume + "ml");
+                            file.WriteLine(item.Price + "000р. ");
+                            file.WriteLine(item.Count + "шт.");
+                            file.WriteLine("");
+                            
                         }
                     }
                 }
