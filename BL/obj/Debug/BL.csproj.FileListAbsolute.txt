@@ -22,3 +22,15 @@ D:\VS\WELL\MyIdeal\BL\bin\Debug\EntityFramework.SqlServer.xml
 D:\VS\WELL\MyIdeal\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
 D:\VS\WELL\MyIdeal\BL\obj\Debug\BL.dll
 D:\VS\WELL\MyIdeal\BL\obj\Debug\BL.pdb
+D:\VS\myideal.git\BL\bin\Debug\BL.dll.config
+D:\VS\myideal.git\BL\bin\Debug\BL.dll
+D:\VS\myideal.git\BL\bin\Debug\BL.pdb
+D:\VS\myideal.git\BL\bin\Debug\EntityFramework.dll
+D:\VS\myideal.git\BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\VS\myideal.git\BL\bin\Debug\MyIdeal.dll
+D:\VS\myideal.git\BL\bin\Debug\MyIdeal.pdb
+D:\VS\myideal.git\BL\bin\Debug\EntityFramework.xml
+D:\VS\myideal.git\BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\VS\myideal.git\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\VS\myideal.git\BL\obj\Debug\BL.dll
+D:\VS\myideal.git\BL\obj\Debug\BL.pdb

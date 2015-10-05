@@ -30,6 +30,7 @@ namespace UI
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtHiddenIndex = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txtHiddenIdLabel = new System.Windows.Forms.TextBox();
             this.bетDelLabel = new System.Windows.Forms.Button();
@@ -70,12 +71,14 @@ namespace UI
             this.cmbLabelGrid = new System.Windows.Forms.ComboBox();
             this.btnViewAllProduct = new System.Windows.Forms.Button();
             this.btnZeroCount = new System.Windows.Forms.Button();
-            this.txtHiddenIndex = new System.Windows.Forms.TextBox();
+            this.gp5 = new System.Windows.Forms.GroupBox();
+            this.btnSaveInFile = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtGridProducts)).BeginInit();
+            this.gp5.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -107,6 +110,13 @@ namespace UI
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Товар";
+            // 
+            // txtHiddenIndex
+            // 
+            this.txtHiddenIndex.Location = new System.Drawing.Point(272, 75);
+            this.txtHiddenIndex.Name = "txtHiddenIndex";
+            this.txtHiddenIndex.Size = new System.Drawing.Size(31, 20);
+            this.txtHiddenIndex.TabIndex = 21;
             // 
             // label12
             // 
@@ -487,12 +497,25 @@ namespace UI
             this.btnZeroCount.Visible = false;
             this.btnZeroCount.Click += new System.EventHandler(this.btnZeroCount_Click);
             // 
-            // txtHiddenIndex
+            // gp5
             // 
-            this.txtHiddenIndex.Location = new System.Drawing.Point(272, 75);
-            this.txtHiddenIndex.Name = "txtHiddenIndex";
-            this.txtHiddenIndex.Size = new System.Drawing.Size(31, 20);
-            this.txtHiddenIndex.TabIndex = 21;
+            this.gp5.Controls.Add(this.btnSaveInFile);
+            this.gp5.Location = new System.Drawing.Point(592, 25);
+            this.gp5.Name = "gp5";
+            this.gp5.Size = new System.Drawing.Size(96, 161);
+            this.gp5.TabIndex = 5;
+            this.gp5.TabStop = false;
+            this.gp5.Text = "Операции";
+            // 
+            // btnSaveInFile
+            // 
+            this.btnSaveInFile.Location = new System.Drawing.Point(6, 19);
+            this.btnSaveInFile.Name = "btnSaveInFile";
+            this.btnSaveInFile.Size = new System.Drawing.Size(75, 23);
+            this.btnSaveInFile.TabIndex = 0;
+            this.btnSaveInFile.Text = "Сохранить";
+            this.btnSaveInFile.UseVisualStyleBackColor = true;
+            this.btnSaveInFile.Click += new System.EventHandler(this.btnSaveInFile_Click);
             // 
             // Form1
             // 
@@ -500,6 +523,7 @@ namespace UI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(888, 790);
+            this.Controls.Add(this.gp5);
             this.Controls.Add(this.btnZeroCount);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
@@ -517,6 +541,7 @@ namespace UI
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtGridProducts)).EndInit();
+            this.gp5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -567,6 +592,8 @@ namespace UI
         private System.Windows.Forms.Button btnZeroCount;
         private System.Windows.Forms.Button btnSaleBetween;
         private System.Windows.Forms.TextBox txtHiddenIndex;
+        private System.Windows.Forms.GroupBox gp5;
+        private System.Windows.Forms.Button btnSaveInFile;
     }
 }
 

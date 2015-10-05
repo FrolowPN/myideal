@@ -2,6 +2,7 @@
 using MyIdeal;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace BL
 {
     public class ProductManager
     {
-        public List<DataViewProducts> GetAllProduct ()
+        public List<DataViewProducts> GetAllProduct()
         {
             var ctx = new ShopContext();
             var result = ctx.Product.Select(x => new DataViewProducts()
@@ -23,15 +24,15 @@ namespace BL
                                                             Count = x.Count
                                                         }).ToList();
             return result;
-               
+
         }
 
-        public List<DataViewProducts> GetProductLabel( string label)
+        public List<DataViewProducts> GetProductLabel(string label)
         {
             var ctx = new ShopContext();
             var helper = ctx.Label.Where(x => x.Name == label).FirstOrDefault();
-            var temp =  ctx.Product.Where(m => m.Label.Name == helper.Name).ToList();
-            
+            var temp = ctx.Product.Where(m => m.Label.Name == helper.Name).ToList();
+
             var result = temp.Select(x => new DataViewProducts()
             {
                 Id = x.Id,
@@ -62,11 +63,11 @@ namespace BL
             }
             catch (Exception)
             {
-                return false;                
+                return false;
             }
-        
+
         }
-        public bool DeleteProduct( int id)
+        public bool DeleteProduct(int id)
         {
             try
             {
@@ -82,7 +83,7 @@ namespace BL
             }
 
         }
-        public bool AddProduct( Product product, string label)
+        public bool AddProduct(Product product, string label)
         {
             try
             {
@@ -109,19 +110,19 @@ namespace BL
                 temp += item.Count;
             }
             return temp;
-        
+
         }
         public int GetAllProductPrice(List<DataViewProducts> list)
         {
             int temp = 0;
             foreach (var item in list)
             {
-                temp += item.Count*item.Price;
+                temp += item.Count * item.Price;
             }
             return temp;
 
         }
-        public bool AddSale (int id, int count)
+        public bool AddSale(int id, int count)
         {
             try
             {
@@ -164,10 +165,37 @@ namespace BL
 
             }
             ctx.SaveChanges();
-        
+
         }
 
+      
+        public bool WriteProductsFile(List<DataViewProducts> list, string address)
+        {
+            try
+            {
+                string path = address + @"\Products.txt";
+                int i = 0;
+                foreach (var item in list)
+                {
+                    if (item.Count != 0)
+                    {
+                        i++;
+                        using (StreamWriter file = new StreamWriter(path, true))
+                        {
+                            file.WriteLine(i + " " + item.LabelName + " " + item.Name + " " + item.Volume + "ml " + item.Price + "000р. " + item.Count+"шт.");
+                        }
+                    }
+                }
+                return true;
+            }
+            catch (Exception)
+            {
 
+                return false;
+            }
+
+
+        }
 
     }
 }

@@ -135,23 +135,23 @@ namespace UI
         {
             try
             {
- txtHiddenId.Text = dtGridProducts.Rows[e.RowIndex].Cells["Id"].Value.ToString();
-            txtNameProduct.Text = dtGridProducts.Rows[e.RowIndex].Cells["Name"].Value.ToString();
-            txtVolumeProduct.Text = dtGridProducts.Rows[e.RowIndex].Cells["Volume"].Value.ToString();
-            txtPriceProduct.Text = dtGridProducts.Rows[e.RowIndex].Cells["Price"].Value.ToString();
-            txtСountProduct.Text = dtGridProducts.Rows[e.RowIndex].Cells["Count"].Value.ToString();
-            var tempNameLabel = dtGridProducts.Rows[e.RowIndex].Cells["LabelName"].Value.ToString();
-            var ctx = new ShopContext();
-            cmbLabel.SelectedValue = ctx.Label.Where(x => x.Name == tempNameLabel).FirstOrDefault().Id;
-            txtDiscount.Text = "0";
-            txtHiddenIndex.Text = dtGridProducts.CurrentRow.Index.ToString();
+                txtHiddenId.Text = dtGridProducts.Rows[e.RowIndex].Cells["Id"].Value.ToString();
+                txtNameProduct.Text = dtGridProducts.Rows[e.RowIndex].Cells["Name"].Value.ToString();
+                txtVolumeProduct.Text = dtGridProducts.Rows[e.RowIndex].Cells["Volume"].Value.ToString();
+                txtPriceProduct.Text = dtGridProducts.Rows[e.RowIndex].Cells["Price"].Value.ToString();
+                txtСountProduct.Text = dtGridProducts.Rows[e.RowIndex].Cells["Count"].Value.ToString();
+                var tempNameLabel = dtGridProducts.Rows[e.RowIndex].Cells["LabelName"].Value.ToString();
+                var ctx = new ShopContext();
+                cmbLabel.SelectedValue = ctx.Label.Where(x => x.Name == tempNameLabel).FirstOrDefault().Id;
+                txtDiscount.Text = "0";
+                txtHiddenIndex.Text = dtGridProducts.CurrentRow.Index.ToString();
             }
             catch (Exception)
             {
 
                 MessageBox.Show("Но-но-но!!");
             }
-           
+
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
@@ -185,7 +185,7 @@ namespace UI
                             dtGridProducts.Rows[Convert.ToInt32(txtHiddenIndex.Text)].Selected = true;
                             dtGridProducts.FirstDisplayedScrollingRowIndex = Convert.ToInt32(txtHiddenIndex.Text);
                             dtGridProducts.Update();
-                        } 
+                        }
                         txtCountProductGrid.Text = temp.GetAllProductCount(temp.GetAllProduct()).ToString();
                         txtAllPriceGrid.Text = temp.GetAllProductPrice(temp.GetAllProduct()).ToString();
                         MessageBox.Show("Товар изменен");
@@ -272,13 +272,13 @@ namespace UI
                     };
                     temp.AddSale(sale, cmbLabel.Text.ToString());
                     dtGridProducts.DataSource = prod.GetAllProduct();
-                    if (Convert.ToInt32(txtHiddenIndex.Text) < dtGridProducts.RowCount )
+                    if (Convert.ToInt32(txtHiddenIndex.Text) < dtGridProducts.RowCount)
                     {
                         dtGridProducts.ClearSelection();
                         dtGridProducts.Rows[Convert.ToInt32(txtHiddenIndex.Text)].Selected = true;
                         dtGridProducts.FirstDisplayedScrollingRowIndex = Convert.ToInt32(txtHiddenIndex.Text);
                         dtGridProducts.Update();
-                    } 
+                    }
                     txtCountProductGrid.Text = prod.GetAllProductCount(prod.GetAllProduct()).ToString();
                     txtAllPriceGrid.Text = prod.GetAllProductPrice(prod.GetAllProduct()).ToString();
                     MessageBox.Show("Товар продан");
@@ -384,6 +384,24 @@ namespace UI
         {
             var report = new ReportSaleBetween();
             report.Show();
+        }
+
+        private void btnSaveInFile_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog FBD = new FolderBrowserDialog();
+            if (FBD.ShowDialog() == DialogResult.OK)
+            {
+                var helper = new ProductManager();
+                if (helper.WriteProductsFile(helper.GetAllProduct(), FBD.SelectedPath.ToString()))
+                {
+                    MessageBox.Show("Товары сохранены в файл!");
+                }
+                else
+                {
+                    MessageBox.Show("Упс! Что-то пошло не так!");
+                }
+            }
+            
         }
     }
 }

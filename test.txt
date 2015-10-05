@@ -1,0 +1,266 @@
+﻿1 Chanel Allure homme sport 100 585 1
+2 Chanel Coco Mademoisel 100 585 2
+3 Chanel №5 100 580 2
+4 Chanel Eau Tendre 100 535 3
+5 Chanel Chance eau Fraiche 100 525 3
+6 Chanel Allure pour homme 100 580 2
+7 Chanel Allure Sensuelle 100 535 1
+8 Chanel Platinum Egoiste 100 568 2
+9 Nina Ricci Love In Paris new 80 496 2
+10 Nina Ricci Ricci Ricci Pretty eau de parfum 80 455 1
+11 Nina Ricci Ricci Ricci Green eau de parfum 80 455 2
+12 Nina Ricci NINA 80 486 1
+13 Nina Ricci L'Air du Temps 50 589 2
+14 Nina Ricci Nina Plain 80 486 1
+15 Gucci Guilty Intense Woman 75 453 2
+16 Gucci Flora by Gucci Generous Violet 100 579 1
+17 Gucci Flora by Gucci Glamorous Magnolia 100 577 1
+18 Gucci Flora by Gucci Glamorous Mandarin 100 573 2
+19 Calvin Klein Euphoria for men 100 585 3
+20 Calvin Klein Sheer Beauty Essence 100 599 2
+21 Calvin Klein Euphoria Liquid Gold eau de parfum 100 589 1
+22 Calvin Klein Euphoria Blossom for her 100 565 1
+23 Calvin Klein SECRET OBSESSION FOR HER 0 535 1
+24 Versace Pour Femme Oud Oriental 100 563 3
+25 Versace POUR HOMME 0 545 1
+26 Versace Crystal Noir 90 525 2
+27 Versace Vanitas 100 578 2
+28 Versace Men eau de toilette 100 576 2
+29 Versace Eua Fraicne 100 588 2
+30 Versace Bright Crystal Absolu 90 518 2
+31 Versace Bright Crystal 90 510 3
+32 Paco Rabanne UltraRED for women 80 435 1
+33 Paco Rabanne Lady Million Eau My Gold 80 487 1
+34 Paco Rabanne One Million 100 570 2
+35 Giorgio Armani Idole d'Armani 75 497 2
+36 Giorgio Armani Armani Si 100 590 2
+37 Giorgio Armani Armani Si White Limited Edition 100 585 1
+38 Giorgio Armani Sensi 100 587 3
+39 Giorgio Armani Acqua di Gio Blue Edition Pour Homme Limited Edition 100 599 1
+40 Giorgio Armani Acqua di Gio Essenza eau de parfum Men 100 570 3
+41 Giorgio Armani Armani Mania Men 100 540 2
+42 Giorgio Armani ACOUA DI pour homme 100 590 2
+43 Giorgio Armani Acqua di Gioia essenza woman 100 542 1
+44 Giorgio Armani Acqua di Gioia woman 100 536 2
+45 Escada Escada 75 577 3
+46 Escada Into The Blue 100 557 2
+47 Dolce & Gabbana The One Blue 100 599 3
+48 Dolce & Gabbana The One 75 547 3
+49 Dolce & Gabbana  Light Blue pour femme 100 545 2
+50 Dolce & Gabbana The One pour homme 100 610 2
+51 Dolce & Gabbana Light Blue pour homme 125 630 4
+52 Dolce & Gabbana L'Imperatrice №3 100 535 3
+53 Dolce & Gabbana Light blue Dreaming in Portofino 100 509 2
+54 Armand Basi In Blue for men 100 576 2
+55 Armand Basi IN RED EAU DE PARFUM FOR WOMAN 0 595 1
+56 Armand Basi ROSE GLASSE FOR WOMAN 100 485 1
+57 Armand Basi In red 100 575 2
+58 Angel Schlesser Essential 100 537 1
+59 Angel Schlesser ESSENTIAL POUR HOMME 100 540 2
+60 Angel Schlesser HOMME 125 425 3
+61 Angel Schlesser Femme 75 380 2
+62 Carolina Herrera CH for men 100 574 2
+63 Carolina Herrera CH for woman 100 578 2
+64 Carolina Herrera 212 FOR HER 60 445 2
+65 Carolina Herrera 212 Vip Men 100 546 2
+66 Carolina Herrera 212 VIP FOR HER 80 465 2
+67 Carolina Herrera 212 VIP parfum (3 в одном) 0 435 1
+68 Antonio Banderas SEDUCTION IN Black FOR MEN) 0 390 2
+69 Antonio Banderas BLUE SEDUCTION FOR MEN 0 380 2
+70 Antonio Banderas The golden secret for men 0 390 1
+71 Burberri Sport for woman 75 425 2
+72 Burberri BODY FOR WMAN 65 415 2
+73 Chloe BODY FOR WMAN 75 505 2
+74 Chloe EAU DE TOILETTE 75 455 2
+75 Chloe EAU DE PARFUM 75 485 2
+76 Lanvin Jeanne Couture 100 563 2
+77 Lanvin Eclat 100 515 1
+78 Lacoste Eau de Lacoste Joy of Pink 90 556 2
+79 Lacoste Eau De Lacoste Sensuelle for women 90 575 3
+80 Lacoste Eau de Lacoste L.12.12 Blanc 100 576 1
+81 Lacoste Eau de Lacoste L.12.12 Jaune Optimistic 100 584 1
+82 Lacoste Eau de Lacoste L.12.12 Vert 100 589 1
+83 Lacoste Eau de Lacoste 90 564 1
+84 Lacoste POUR FEMME 90 547 2
+85 Lacoste Touch of sun 90 475 2
+86 Lacoste Essential Pour Homme 125 620 2
+87 Lacoste Challenge Pour Homme 90 480 2
+88 Bvlgari Jasmin Noir pour femme 100 593 2
+89 Bvlgari Mon Jasmin Noir pour femme 75 563 2
+90 Bvlgari Mon jasmin noir l"eau exouise pour femme 100 578 4
+91 Bvlgari Aqva Marine pour homme 100 585 2
+92 Bvlgari AOVA POUR HOMME 100 576 1
+93 Bvlgari Omnia pour femme 65 410 3
+94 Bvlgari Omnia Green Jade pour femme 65 413 2
+95 Bvlgari Omnia coral 65 425 2
+96 Dior Higher 100 520 3
+97 Dior Diorissimo woman 100 589 2
+98 Dior Homme Intense 100 582 2
+99 Dior J'Adore 100 587 3
+100 Dior Miss Dior Le Parfum 100 573 2
+101 Dior Hypnotic Poison туалетн. 100 395 1
+102 Dior Hypnotic Poison 100 589 2
+103 Hugo Boss Baldessarini 75 470 1
+104 Hugo Boss Soul 90 510 3
+105 Hugo Boss Bottled Sport 100 594 2
+106 Hugo Boss In Motion Blue 90 460 1
+107 Hugo Boss Femme L'eau Fraiche 75 487 2
+108 Hugo Boss Boss Orange Women Eau de Parfum 75 495 2
+109 Hugo Boss Woman Intense 90 535 2
+110 Hugo Boss Woman 75 487 2
+111 Hugo Boss In Motion grey 90 460 2
+112 Moschino Glamour 100 499 3
+113 Moschino L'Eau Cheap and Chic 100 435 3
+114 Kenzo L'Eau Par Kenzo Colors edition pour femme 100 480 1
+115 Kenzo L'Eau Par Kenzo Ice pour femme 100 480 1
+116 Kenzo L'Eau Par Kenzo Pour Femme 100 480 1
+117 Givenchy Very Irresistible Electric Rose 75 463 2
+118 Givenchy Ange Ou Demon 100 567 1
+119 Givenchy Pour homme Blue Label 100 547 2
+120 Givenchy Pour homme 100 555 2
+121 Givenchy Un air d`escapade 100 532 1
+122 Cacharel NOA 0 547 2
+123 Lancome La Vie est Belle 100 567 2
+124 Yohji Yamamoto Homme 100 526 2
+125 Yohji Yamamoto Yohji 100 515 2
+126 Gian Marco Venturi Woman 100 598 2
+127 DKNY Delicious golden 100 578 1
+128 DKNY Delicious Candy Apples Ripe Raspberry 50 405 2
+129 DKNY Delicious Candy Apples Juicy Berry 50 405 2
+130 DKNY Be delicious 100 565 2
+131 Narciso Rodriguez For her black 100 578 2
+132 Trussardi A Way For Her eau de toilette pour femme 100 523 2
+133 Trussardi My Name 100 540 3
+1 Chanel Allure homme sport 100 585 1
+2 Chanel Coco Mademoisel 100 585 2
+3 Chanel №5 100 580 2
+4 Chanel Eau Tendre 100 535 3
+5 Chanel Chance eau Fraiche 100 525 3
+6 Chanel Allure pour homme 100 580 2
+7 Chanel Allure Sensuelle 100 535 1
+8 Chanel Platinum Egoiste 100 568 2
+9 Nina Ricci Love In Paris new 80 496 2
+10 Nina Ricci Ricci Ricci Pretty eau de parfum 80 455 1
+11 Nina Ricci Ricci Ricci Green eau de parfum 80 455 2
+12 Nina Ricci NINA 80 486 1
+13 Nina Ricci L'Air du Temps 50 589 2
+14 Nina Ricci Nina Plain 80 486 1
+15 Gucci Guilty Intense Woman 75 453 2
+16 Gucci Flora by Gucci Generous Violet 100 579 1
+17 Gucci Flora by Gucci Glamorous Magnolia 100 577 1
+18 Gucci Flora by Gucci Glamorous Mandarin 100 573 2
+19 Calvin Klein Euphoria for men 100 585 3
+20 Calvin Klein Sheer Beauty Essence 100 599 2
+21 Calvin Klein Euphoria Liquid Gold eau de parfum 100 589 1
+22 Calvin Klein Euphoria Blossom for her 100 565 1
+23 Calvin Klein SECRET OBSESSION FOR HER 0 535 1
+24 Versace Pour Femme Oud Oriental 100 563 3
+25 Versace POUR HOMME 0 545 1
+26 Versace Crystal Noir 90 525 2
+27 Versace Vanitas 100 578 2
+28 Versace Men eau de toilette 100 576 2
+29 Versace Eua Fraicne 100 588 2
+30 Versace Bright Crystal Absolu 90 518 2
+31 Versace Bright Crystal 90 510 3
+32 Paco Rabanne UltraRED for women 80 435 1
+33 Paco Rabanne Lady Million Eau My Gold 80 487 1
+34 Paco Rabanne One Million 100 570 2
+35 Giorgio Armani Idole d'Armani 75 497 2
+36 Giorgio Armani Armani Si 100 590 2
+37 Giorgio Armani Armani Si White Limited Edition 100 585 1
+38 Giorgio Armani Sensi 100 587 3
+39 Giorgio Armani Acqua di Gio Blue Edition Pour Homme Limited Edition 100 599 1
+40 Giorgio Armani Acqua di Gio Essenza eau de parfum Men 100 570 3
+41 Giorgio Armani Armani Mania Men 100 540 2
+42 Giorgio Armani ACOUA DI pour homme 100 590 2
+43 Giorgio Armani Acqua di Gioia essenza woman 100 542 1
+44 Giorgio Armani Acqua di Gioia woman 100 536 2
+45 Escada Escada 75 577 3
+46 Escada Into The Blue 100 557 2
+47 Dolce & Gabbana The One Blue 100 599 3
+48 Dolce & Gabbana The One 75 547 3
+49 Dolce & Gabbana  Light Blue pour femme 100 545 2
+50 Dolce & Gabbana The One pour homme 100 610 2
+51 Dolce & Gabbana Light Blue pour homme 125 630 4
+52 Dolce & Gabbana L'Imperatrice №3 100 535 3
+53 Dolce & Gabbana Light blue Dreaming in Portofino 100 509 2
+54 Armand Basi In Blue for men 100 576 2
+55 Armand Basi IN RED EAU DE PARFUM FOR WOMAN 0 595 1
+56 Armand Basi ROSE GLASSE FOR WOMAN 100 485 1
+57 Armand Basi In red 100 575 2
+58 Angel Schlesser Essential 100 537 1
+59 Angel Schlesser ESSENTIAL POUR HOMME 100 540 2
+60 Angel Schlesser HOMME 125 425 3
+61 Angel Schlesser Femme 75 380 2
+62 Carolina Herrera CH for men 100 574 2
+63 Carolina Herrera CH for woman 100 578 2
+64 Carolina Herrera 212 FOR HER 60 445 2
+65 Carolina Herrera 212 Vip Men 100 546 2
+66 Carolina Herrera 212 VIP FOR HER 80 465 2
+67 Carolina Herrera 212 VIP parfum (3 в одном) 0 435 1
+68 Antonio Banderas SEDUCTION IN Black FOR MEN) 0 390 2
+69 Antonio Banderas BLUE SEDUCTION FOR MEN 0 380 2
+70 Antonio Banderas The golden secret for men 0 390 1
+71 Burberri Sport for woman 75 425 2
+72 Burberri BODY FOR WMAN 65 415 2
+73 Chloe BODY FOR WMAN 75 505 2
+74 Chloe EAU DE TOILETTE 75 455 2
+75 Chloe EAU DE PARFUM 75 485 2
+76 Lanvin Jeanne Couture 100 563 2
+77 Lanvin Eclat 100 515 1
+78 Lacoste Eau de Lacoste Joy of Pink 90 556 2
+79 Lacoste Eau De Lacoste Sensuelle for women 90 575 3
+80 Lacoste Eau de Lacoste L.12.12 Blanc 100 576 1
+81 Lacoste Eau de Lacoste L.12.12 Jaune Optimistic 100 584 1
+82 Lacoste Eau de Lacoste L.12.12 Vert 100 589 1
+83 Lacoste Eau de Lacoste 90 564 1
+84 Lacoste POUR FEMME 90 547 2
+85 Lacoste Touch of sun 90 475 2
+86 Lacoste Essential Pour Homme 125 620 2
+87 Lacoste Challenge Pour Homme 90 480 2
+88 Bvlgari Jasmin Noir pour femme 100 593 2
+89 Bvlgari Mon Jasmin Noir pour femme 75 563 2
+90 Bvlgari Mon jasmin noir l"eau exouise pour femme 100 578 4
+91 Bvlgari Aqva Marine pour homme 100 585 2
+92 Bvlgari AOVA POUR HOMME 100 576 1
+93 Bvlgari Omnia pour femme 65 410 3
+94 Bvlgari Omnia Green Jade pour femme 65 413 2
+95 Bvlgari Omnia coral 65 425 2
+96 Dior Higher 100 520 3
+97 Dior Diorissimo woman 100 589 2
+98 Dior Homme Intense 100 582 2
+99 Dior J'Adore 100 587 3
+100 Dior Miss Dior Le Parfum 100 573 2
+101 Dior Hypnotic Poison туалетн. 100 395 1
+102 Dior Hypnotic Poison 100 589 2
+103 Hugo Boss Baldessarini 75 470 1
+104 Hugo Boss Soul 90 510 3
+105 Hugo Boss Bottled Sport 100 594 2
+106 Hugo Boss In Motion Blue 90 460 1
+107 Hugo Boss Femme L'eau Fraiche 75 487 2
+108 Hugo Boss Boss Orange Women Eau de Parfum 75 495 2
+109 Hugo Boss Woman Intense 90 535 2
+110 Hugo Boss Woman 75 487 2
+111 Hugo Boss In Motion grey 90 460 2
+112 Moschino Glamour 100 499 3
+113 Moschino L'Eau Cheap and Chic 100 435 3
+114 Kenzo L'Eau Par Kenzo Colors edition pour femme 100 480 1
+115 Kenzo L'Eau Par Kenzo Ice pour femme 100 480 1
+116 Kenzo L'Eau Par Kenzo Pour Femme 100 480 1
+117 Givenchy Very Irresistible Electric Rose 75 463 2
+118 Givenchy Ange Ou Demon 100 567 1
+119 Givenchy Pour homme Blue Label 100 547 2
+120 Givenchy Pour homme 100 555 2
+121 Givenchy Un air d`escapade 100 532 1
+122 Cacharel NOA 0 547 2
+123 Lancome La Vie est Belle 100 567 2
+124 Yohji Yamamoto Homme 100 526 2
+125 Yohji Yamamoto Yohji 100 515 2
+126 Gian Marco Venturi Woman 100 598 2
+127 DKNY Delicious golden 100 578 1
+128 DKNY Delicious Candy Apples Ripe Raspberry 50 405 2
+129 DKNY Delicious Candy Apples Juicy Berry 50 405 2
+130 DKNY Be delicious 100 565 2
+131 Narciso Rodriguez For her black 100 578 2
+132 Trussardi A Way For Her eau de toilette pour femme 100 523 2
+133 Trussardi My Name 100 540 3
