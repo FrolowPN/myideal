@@ -56,6 +56,7 @@ namespace UI
             this.btnSale = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnSaleBetween = new System.Windows.Forms.Button();
             this.btnSaleMonth = new System.Windows.Forms.Button();
             this.btnViewSaleToDay = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -69,7 +70,7 @@ namespace UI
             this.cmbLabelGrid = new System.Windows.Forms.ComboBox();
             this.btnViewAllProduct = new System.Windows.Forms.Button();
             this.btnZeroCount = new System.Windows.Forms.Button();
-            this.btnSaleBetween = new System.Windows.Forms.Button();
+            this.txtHiddenIndex = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -79,6 +80,7 @@ namespace UI
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtHiddenIndex);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.txtHiddenIdLabel);
             this.groupBox1.Controls.Add(this.bетDelLabel);
@@ -345,6 +347,16 @@ namespace UI
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Отчеты";
             // 
+            // btnSaleBetween
+            // 
+            this.btnSaleBetween.Location = new System.Drawing.Point(6, 46);
+            this.btnSaleBetween.Name = "btnSaleBetween";
+            this.btnSaleBetween.Size = new System.Drawing.Size(115, 23);
+            this.btnSaleBetween.TabIndex = 2;
+            this.btnSaleBetween.Text = "Продажи за период";
+            this.btnSaleBetween.UseVisualStyleBackColor = true;
+            this.btnSaleBetween.Click += new System.EventHandler(this.button1_Click);
+            // 
             // btnSaleMonth
             // 
             this.btnSaleMonth.Location = new System.Drawing.Point(7, 75);
@@ -475,15 +487,12 @@ namespace UI
             this.btnZeroCount.Visible = false;
             this.btnZeroCount.Click += new System.EventHandler(this.btnZeroCount_Click);
             // 
-            // btnSaleBetween
+            // txtHiddenIndex
             // 
-            this.btnSaleBetween.Location = new System.Drawing.Point(6, 46);
-            this.btnSaleBetween.Name = "btnSaleBetween";
-            this.btnSaleBetween.Size = new System.Drawing.Size(115, 23);
-            this.btnSaleBetween.TabIndex = 2;
-            this.btnSaleBetween.Text = "Продажи за период";
-            this.btnSaleBetween.UseVisualStyleBackColor = true;
-            this.btnSaleBetween.Click += new System.EventHandler(this.button1_Click);
+            this.txtHiddenIndex.Location = new System.Drawing.Point(272, 75);
+            this.txtHiddenIndex.Name = "txtHiddenIndex";
+            this.txtHiddenIndex.Size = new System.Drawing.Size(31, 20);
+            this.txtHiddenIndex.TabIndex = 21;
             // 
             // Form1
             // 
@@ -557,6 +566,7 @@ namespace UI
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btnZeroCount;
         private System.Windows.Forms.Button btnSaleBetween;
+        private System.Windows.Forms.TextBox txtHiddenIndex;
     }
 }
 

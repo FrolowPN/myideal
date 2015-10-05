@@ -117,5 +117,24 @@ namespace BL
                                                         }).ToList();
             return result;
         }
+
+        public List<DataViewSaleProduct> GetSaleMonth(DateTime date)
+        {
+            var ctx = new ShopContext();
+            var temp = ctx.SaleProduct.Where(x => x.DateTimeSale.Month == date.Month).ToList();
+            var result = temp.Select(x => new DataViewSaleProduct()
+            {
+                Id = x.Id,
+                LabelName = x.Label.Name,
+                Name = x.Name,
+                Price = x.Price,
+                Discount = x.Discount,
+                Count = x.Count,
+                DateTimeSale = x.DateTimeSale
+            }).ToList();
+
+            return result;
+
+        }
     }
 }

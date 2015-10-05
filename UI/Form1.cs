@@ -144,6 +144,7 @@ namespace UI
             var ctx = new ShopContext();
             cmbLabel.SelectedValue = ctx.Label.Where(x => x.Name == tempNameLabel).FirstOrDefault().Id;
             txtDiscount.Text = "0";
+            txtHiddenIndex.Text = dtGridProducts.CurrentRow.Index.ToString();
             }
             catch (Exception)
             {
@@ -178,6 +179,13 @@ namespace UI
                     if (temp.SaveProduct(helper, cmbLabel.Text.ToString()))
                     {
                         dtGridProducts.DataSource = temp.GetAllProduct();
+                        if (Convert.ToInt32(txtHiddenIndex.Text) < dtGridProducts.RowCount)
+                        {
+                            dtGridProducts.ClearSelection();
+                            dtGridProducts.Rows[Convert.ToInt32(txtHiddenIndex.Text)].Selected = true;
+                            dtGridProducts.FirstDisplayedScrollingRowIndex = Convert.ToInt32(txtHiddenIndex.Text);
+                            dtGridProducts.Update();
+                        } 
                         txtCountProductGrid.Text = temp.GetAllProductCount(temp.GetAllProduct()).ToString();
                         txtAllPriceGrid.Text = temp.GetAllProductPrice(temp.GetAllProduct()).ToString();
                         MessageBox.Show("Товар изменен");
@@ -264,6 +272,13 @@ namespace UI
                     };
                     temp.AddSale(sale, cmbLabel.Text.ToString());
                     dtGridProducts.DataSource = prod.GetAllProduct();
+                    if (Convert.ToInt32(txtHiddenIndex.Text) < dtGridProducts.RowCount )
+                    {
+                        dtGridProducts.ClearSelection();
+                        dtGridProducts.Rows[Convert.ToInt32(txtHiddenIndex.Text)].Selected = true;
+                        dtGridProducts.FirstDisplayedScrollingRowIndex = Convert.ToInt32(txtHiddenIndex.Text);
+                        dtGridProducts.Update();
+                    } 
                     txtCountProductGrid.Text = prod.GetAllProductCount(prod.GetAllProduct()).ToString();
                     txtAllPriceGrid.Text = prod.GetAllProductPrice(prod.GetAllProduct()).ToString();
                     MessageBox.Show("Товар продан");
