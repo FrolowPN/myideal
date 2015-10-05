@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dtMonth = new System.Windows.Forms.DateTimePicker();
+            this.ckBoxMonth = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtAllPriceGrid = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -40,8 +42,7 @@
             this.dtEnd = new System.Windows.Forms.DateTimePicker();
             this.dtBegin = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
-            this.ckBoxMonth = new System.Windows.Forms.CheckBox();
-            this.dtMonth = new System.Windows.Forms.DateTimePicker();
+            this.btnSaveSaleInFile = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtGrSaleBetween)).BeginInit();
             this.SuspendLayout();
@@ -49,6 +50,7 @@
             // groupBox1
             // 
             this.groupBox1.AutoSize = true;
+            this.groupBox1.Controls.Add(this.btnSaveSaleInFile);
             this.groupBox1.Controls.Add(this.dtMonth);
             this.groupBox1.Controls.Add(this.ckBoxMonth);
             this.groupBox1.Controls.Add(this.label7);
@@ -70,6 +72,28 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Продажи";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // dtMonth
+            // 
+            this.dtMonth.CustomFormat = "MMMM yyyy";
+            this.dtMonth.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtMonth.Location = new System.Drawing.Point(275, 17);
+            this.dtMonth.Name = "dtMonth";
+            this.dtMonth.Size = new System.Drawing.Size(200, 20);
+            this.dtMonth.TabIndex = 20;
+            this.dtMonth.Value = new System.DateTime(2015, 10, 5, 0, 0, 0, 0);
+            this.dtMonth.Visible = false;
+            // 
+            // ckBoxMonth
+            // 
+            this.ckBoxMonth.AutoSize = true;
+            this.ckBoxMonth.Location = new System.Drawing.Point(662, 20);
+            this.ckBoxMonth.Name = "ckBoxMonth";
+            this.ckBoxMonth.Size = new System.Drawing.Size(87, 17);
+            this.ckBoxMonth.TabIndex = 19;
+            this.ckBoxMonth.Text = "по месяцам";
+            this.ckBoxMonth.UseVisualStyleBackColor = true;
+            this.ckBoxMonth.CheckedChanged += new System.EventHandler(this.ckBoxMonth_CheckedChanged);
             // 
             // label7
             // 
@@ -166,27 +190,16 @@
             this.label1.Text = "Выберите период: от";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // ckBoxMonth
+            // btnSaveSaleInFile
             // 
-            this.ckBoxMonth.AutoSize = true;
-            this.ckBoxMonth.Location = new System.Drawing.Point(662, 20);
-            this.ckBoxMonth.Name = "ckBoxMonth";
-            this.ckBoxMonth.Size = new System.Drawing.Size(87, 17);
-            this.ckBoxMonth.TabIndex = 19;
-            this.ckBoxMonth.Text = "по месяцам";
-            this.ckBoxMonth.UseVisualStyleBackColor = true;
-            this.ckBoxMonth.CheckedChanged += new System.EventHandler(this.ckBoxMonth_CheckedChanged);
-            // 
-            // dtMonth
-            // 
-            this.dtMonth.CustomFormat = "MMMM yyyy";
-            this.dtMonth.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtMonth.Location = new System.Drawing.Point(275, 17);
-            this.dtMonth.Name = "dtMonth";
-            this.dtMonth.Size = new System.Drawing.Size(200, 20);
-            this.dtMonth.TabIndex = 20;
-            this.dtMonth.Value = new System.DateTime(2015, 10, 5, 0, 0, 0, 0);
-            this.dtMonth.Visible = false;
+            this.btnSaveSaleInFile.Location = new System.Drawing.Point(648, 441);
+            this.btnSaveSaleInFile.Name = "btnSaveSaleInFile";
+            this.btnSaveSaleInFile.Size = new System.Drawing.Size(112, 23);
+            this.btnSaveSaleInFile.TabIndex = 21;
+            this.btnSaveSaleInFile.Text = "Сохранить в файл";
+            this.btnSaveSaleInFile.UseVisualStyleBackColor = true;
+            this.btnSaveSaleInFile.Visible = false;
+            this.btnSaveSaleInFile.Click += new System.EventHandler(this.btnSaveSaleInFile_Click);
             // 
             // ReportSaleBetween
             // 
@@ -222,5 +235,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.CheckBox ckBoxMonth;
         private System.Windows.Forms.DateTimePicker dtMonth;
+        private System.Windows.Forms.Button btnSaveSaleInFile;
     }
 }

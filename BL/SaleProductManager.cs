@@ -2,6 +2,7 @@
 using MyIdeal;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -135,6 +136,58 @@ namespace BL
 
             return result;
 
+        }
+
+        public bool WriteSaleInFile(List<DataViewSaleProduct > list, string address)
+        {
+            try
+            {
+                string path = address + @"\ProductsSale.txt";
+                int i = 0;
+                foreach (var item in list)
+                {
+                    if (item.Count != 0)
+                    {
+                        i++;
+                        using (StreamWriter file = new StreamWriter(path, true))
+                        {
+                            file.WriteLine(i + " " + item.LabelName + " " + item.Name + " " + item.Price + "000р. " + item.Count + "шт. Скидка - "+item.Discount + " " + item.DateTimeSale);
+                            //file.WriteLine("    -= " + i + " =-");
+                            //file.WriteLine(item.LabelName);
+                            //file.WriteLine(item.Name);
+                            //file.WriteLine(item.Volume + "ml");
+                            //file.WriteLine(item.Price + "000р. ");
+                            //file.WriteLine(item.Count + "шт.");
+                            file.WriteLine("");
+
+                        }
+                    }
+                }
+                return true;
+            }
+            catch (Exception)
+            {
+
+                return false;
+            }
+        }
+        public bool WriteStringInFile(string text, string address)
+        {
+            try
+            {
+                string path = address + @"\ProductsSale.txt";
+                
+                        using (StreamWriter file = new StreamWriter(path, true))
+                        {
+                            file.WriteLine(text);
+                        }
+                    
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
     }
 }

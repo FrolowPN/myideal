@@ -36,6 +36,7 @@ namespace UI
 
         private void btnGetSaleBetween_Click(object sender, EventArgs e)
         {
+            btnSaveSaleInFile.Visible = true;
             if (ckBoxMonth.Checked)
             {
                 var helper = new SaleProductManager();
@@ -85,6 +86,42 @@ namespace UI
                 label2.Visible = true;
                 dtMonth.Visible = false;
             }
+        }
+
+        private void btnSaveSaleInFile_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog FBD = new FolderBrowserDialog();
+            if (FBD.ShowDialog() == DialogResult.OK)
+            {
+                if (ckBoxMonth.Checked)
+                {
+                    var helper = new SaleProductManager();
+                    if (helper.WriteSaleInFile(helper.GetSaleMonth(Convert.ToDateTime(dtMonth.Text)), FBD.SelectedPath.ToString()) &&
+                        helper.WriteStringInFile("Всего продано " + txtCountProductGrid.Text + " шт. на сумму " + txtAllPriceGrid.Text + "000 рублей", FBD.SelectedPath.ToString()))
+                    {
+                        MessageBox.Show("Продажи сохранены в файл!");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Упс! Что-то пошло не так!");
+                    }
+                }
+                else
+                {
+                    var helper = new SaleProductManager();
+                    if (helper.WriteSaleInFile(helper.GetSaleBetween(Convert.ToDateTime(dtBegin.Text), Convert.ToDateTime(dtEnd.Text)), FBD.SelectedPath.ToString()) &&
+                        helper.WriteStringInFile("Всего продано " + txtCountProductGrid.Text + " шт. на сумму " + txtAllPriceGrid.Text + "000 рублей", FBD.SelectedPath.ToString()))
+                    {
+                        MessageBox.Show("Продажи сохранены в файл!");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Упс! Что-то пошло не так!");
+                    }
+                }
+            }
+
+            
         }
     }
 }

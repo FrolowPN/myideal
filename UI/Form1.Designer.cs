@@ -117,6 +117,7 @@ namespace UI
             this.txtHiddenIndex.Name = "txtHiddenIndex";
             this.txtHiddenIndex.Size = new System.Drawing.Size(31, 20);
             this.txtHiddenIndex.TabIndex = 21;
+            this.txtHiddenIndex.Visible = false;
             // 
             // label12
             // 
@@ -505,15 +506,15 @@ namespace UI
             this.gp5.Size = new System.Drawing.Size(96, 161);
             this.gp5.TabIndex = 5;
             this.gp5.TabStop = false;
-            this.gp5.Text = "Операции";
+            this.gp5.Text = "Экспорт";
             // 
             // btnSaveInFile
             // 
             this.btnSaveInFile.Location = new System.Drawing.Point(6, 19);
             this.btnSaveInFile.Name = "btnSaveInFile";
-            this.btnSaveInFile.Size = new System.Drawing.Size(75, 23);
+            this.btnSaveInFile.Size = new System.Drawing.Size(84, 43);
             this.btnSaveInFile.TabIndex = 0;
-            this.btnSaveInFile.Text = "Сохранить";
+            this.btnSaveInFile.Text = "Сохранить в файл";
             this.btnSaveInFile.UseVisualStyleBackColor = true;
             this.btnSaveInFile.Click += new System.EventHandler(this.btnSaveInFile_Click);
             // 
